@@ -5,9 +5,7 @@ import TextField from "material-ui/TextField"
 import RaisedButton from "material-ui/RaisedButton"
 
 export class FormPersonalDetails extends Component {
-    constructor(props){
-        super(props)
-    }
+
 
 
     continue = e => {
@@ -30,7 +28,7 @@ export class FormPersonalDetails extends Component {
                  <TextField
                  floatingLabelText="Contact No"
                  hintText="Enter your contact number"
-                 onChange={handleChange("contactNumber")}
+                 onChange={handleChange("contact")}
                  defaultValue={values.contact}
                  />
                  <br/>
